@@ -1,0 +1,58 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9e3e6;
+}
+
+.score {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  letter-spacing: 0.1rem;
+}
+.score p {
+  font-size: 1.5rem;
+  color: #083d77;
+  letter-spacing: 0.5rem;
+}
+.parent {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 100px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.dealer {
+  padding: 0 2.5rem;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.divEl {
+  border: 1px solid black;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+  margin: 0 0.2rem;
+  color: rgb(37, 220, 74);
+  height: 15rem;
+  border-radius: 0.6rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
